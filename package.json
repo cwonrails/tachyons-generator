@@ -41,12 +41,7 @@
   },
   "devDependencies": {
     "ava": "^0.22.0",
-    "babel-eslint": "^7.2.3",
     "globby": "^6.1.0",
-    "standard": "^10.0.3",
     "tachyons": "latest"
-  },
-  "standard": {
-    "parser": "babel-eslint"
   }
 }
