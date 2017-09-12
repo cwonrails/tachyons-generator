@@ -17,13 +17,13 @@ const LOREM = `
 const generateMeasure = (title, className) =>
   e('div', { className, key: className },
     e('h3', { className: 'mt4 fw6 f6' }, title),
-    e('p', { className: 'lh-copy' }, LOREM),
+    e('p', { className: 'lh-copy' }, LOREM)
   )
 
 const Measures = () => [
   generateMeasure('Wide Measure', 'measure-wide'),
   generateMeasure('Measure', 'measure'),
-  generateMeasure('Narrow Measure', 'measure-narrow'),
+  generateMeasure('Narrow Measure', 'measure-narrow')
 ]
 
 module.exports = measure =>

@@ -69,7 +69,7 @@ module.exports = (config, typeScale) =>
       title: 'Colors',
       children: [
         HtmlSection(ColorsTable(config)),
-        CodeSection(typeScale),
+        CodeSection(typeScale)
       ]
     }),
     Section({

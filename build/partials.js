@@ -30,7 +30,7 @@ const readFile = file => {
 }
 
 const writeFile = ({ file, css }) => {
-  const js = "module.exports = `\n" + css.trim() + "\n`"
+  const js = 'module.exports = `\n' + css.trim() + '\n`'
   fs.writeFileSync(`partials/_${file}.css.js`, js)
 }
 

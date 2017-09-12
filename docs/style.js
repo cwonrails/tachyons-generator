@@ -95,7 +95,7 @@ module.exports.ColorsCx = {
     },
     '@media screen and (min-width: 60em)': {
       width: '25%'
-    },
+    }
   })
 }
 

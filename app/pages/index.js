@@ -34,7 +34,7 @@ export default class extends React.Component {
 
       return n !== name
     })
-    
+
     const newConfig = Object.assign({}, config, { colors: newColors })
     this.setState({ config: newConfig })
   }
